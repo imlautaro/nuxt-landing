@@ -11,6 +11,7 @@
     },
     "devDependencies": {
         "@nuxt/types": "^2.15.3",
-        "@nuxt/typescript-build": "^2.1.0"
+        "@nuxt/typescript-build": "^2.1.0",
+        "@vercel/node": "^1.9.1"
     }
 }
