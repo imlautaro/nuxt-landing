@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.sheet {
+		@apply bg-white shadow;
+	}
+	.form-control {
+		@apply duration-100 border outline-none px-4 py-2 ring-0 ring-primary ring-opacity-10 rounded-md;
+	}
+	.form-control--large {
+		@apply px-6 py-3 rounded-lg text-lg;
+	}
+	.form-control:focus {
+		@apply outline-none ring-4;
+	}
+	.icon-btn {
+		@apply duration-100 outline-none p-2 rounded-md;
+	}
+	.icon-btn:hover {
+		@apply bg-black bg-opacity-5;
+	}
+	.icon-btn:focus {
+		@apply outline-none;
+	}
+	.btn {
+		@apply duration-100 font-semibold outline-none overflow-hidden px-4 py-2 relative ring-0 rounded-md shadow-md transform;
+	}
+	.btn:hover {
+		@apply scale-105 shadow-lg;
+	}
+	.btn:active {
+		@apply scale-95 shadow;
+	}
+	.btn--loader {
+		@apply absolute bg-opacity-50 bg-white h-full left-0 top-0 w-full;
+		animation: button-loader 1s infinite linear;
+	}
+	.btn--large {
+		@apply px-6 py-3 rounded-lg text-lg;
+	}
+	.btn:focus {
+		@apply outline-none ring-4;
+	}
+	.btn--primary {
+		@apply bg-gradient-to-br from-primary to-secondary ring-primary ring-opacity-25 text-white;
+	}
+	.btn--white {
+		@apply bg-white ring-white ring-opacity-25 text-primary;
+	}
+}
+
+@keyframes button-loader {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(100%);
+	}
+}
