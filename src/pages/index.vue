@@ -11,7 +11,7 @@
 						</h2>
 					</div>
 					<p
-						class="leading-8 text-white text-opacity-75 text-lg md:text-xl"
+						class="leading-8 text-white text-opacity-80 text-lg md:text-xl"
 					>
 						Lorem, ipsum dolor sit amet consectetur adipisicing
 						elit. Alias quos nihil nemo unde et eveniet provident
@@ -155,3 +155,19 @@
 		</div>
 	</div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+	head() {
+		return {
+			meta: [
+				{
+					name: 'description',
+					content: 'An amazing Landing Page template made with Nuxt.', // TODO: Update description
+				},
+			],
+		}
+	},
+})
+</script>

@@ -36,7 +36,12 @@
 						>Contact</InpageLink
 					>
 				</div>
-				<button class="icon-btn md:hidden" @click="$emit('open-menu')">
+				<!-- TODO: Translate aria-label if necessary -->
+				<button
+					aria-label="Open or close navigation menu"
+					class="icon-btn md:hidden"
+					@click="$emit('open-menu')"
+				>
 					<svg
 						class="w-6"
 						xmlns="http://www.w3.org/2000/svg"
