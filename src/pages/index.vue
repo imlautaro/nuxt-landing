@@ -3,8 +3,7 @@
 		<div id="who">
 			<div class="container max-w-screen-lg">
 				<div
-					class="bg-primary flex flex-col shadow-md text-center space-y-4 px-8 md:px-16 py-16 rounded-xl text-white"
-					v-motion-pop-bottom
+					class="bg-primary-600 flex flex-col shadow-md text-center space-y-4 px-8 md:px-16 py-16 rounded-xl text-white"
 				>
 					<div class="flex flex-col space-y-2">
 						<h2 class="font-bold text-4xl md:text-5xl">
@@ -34,7 +33,6 @@
 				<Heading
 					title="What we do?"
 					paragraph="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut fugit, a voluptatum excepturi culpa ducimus praesentium vel ratione quo quae?"
-					v-motion-pop-bottom
 				/>
 				<div class="grid grid-cols-12 gap-y-8 gap-x-0 md:gap-x-8">
 					<div
@@ -42,18 +40,17 @@
 						v-for="item in [0, 1, 2, 3]"
 						:key="item"
 					>
-						<Feature v-motion-pop-bottom />
+						<Feature />
 					</div>
 				</div>
 			</div>
 		</div>
-		<Divider />
+		<ui-divider />
 		<div class="py-16" id="products">
 			<div class="container flex flex-col max-w-screen-lg space-y-8">
 				<Heading
 					title="Our products"
 					paragraph="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut fugit, a voluptatum excepturi culpa ducimus praesentium vel ratione quo quae?"
-					v-motion-pop-bottom
 				/>
 				<div class="grid grid-cols-12 gap-y-8 gap-x-0 md:gap-x-8">
 					<div
@@ -61,12 +58,12 @@
 						v-for="item in [0, 1, 2, 3, 4, 5]"
 						:key="item"
 					>
-						<Product v-motion-pop-bottom />
+						<Product />
 					</div>
 				</div>
 			</div>
 		</div>
-		<Divider />
+		<ui-divider />
 		<div class="py-16" id="where">
 			<div class="container max-w-screen-lg">
 				<div class="grid grid-cols-12 gap-y-8 gap-x-0 md:gap-x-8">
@@ -75,14 +72,12 @@
 					>
 						<div
 							class="bg-gray-200 shadow-md flex h-64 items-center justify-center rounded-xl w-full"
-							v-motion-pop-bottom
 						>
 							Google Maps
 						</div>
 					</div>
 					<div
 						class="col-span-12 row-start-1 md:col-span-6 text-center md:text-left items-center md:items-start flex flex-col justify-center space-y-4"
-						v-motion-pop-bottom
 					>
 						<h2 class="font-bold text-4xl">Where we are?</h2>
 						<p class="leading-8 text-lg">
@@ -95,13 +90,12 @@
 				</div>
 			</div>
 		</div>
-		<Divider />
+		<ui-divider />
 		<div class="py-16" id="contact">
 			<div class="container max-w-screen-lg">
 				<div class="grid grid-cols-12 gap-y-8 gap-x-0 md:gap-x-8">
 					<div
 						class="col-span-12 md:col-span-6 text-center md:text-left items-center md:items-start flex flex-col justify-center space-y-4"
-						v-motion-pop-bottom
 					>
 						<h2 class="font-bold text-4xl">Contact</h2>
 						<p class="leading-8 text-lg">
@@ -154,7 +148,7 @@
 						</div>
 					</div>
 					<div class="col-span-12 md:col-span-6">
-						<ContactForm v-motion-pop-bottom />
+						<ContactForm />
 					</div>
 				</div>
 			</div>

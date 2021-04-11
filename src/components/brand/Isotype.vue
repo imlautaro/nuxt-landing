@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="bg-gradient-to-br from-primary p-2 rounded-xl text-white to-secondary"
+		class="bg-gradient-to-br from-primary-600 p-2 rounded-xl text-white to-secondary-600"
 	>
 		<svg
 			class="w-6"

@@ -1,9 +1,11 @@
 <template>
 	<div class="container flex flex-col max-w-screen-md space-y-4 text-center">
 		<div class="flex flex-col space-y-2">
-			<span class="font-semibold text-primary uppercase" v-if="tag">{{
-				tag
-			}}</span>
+			<span
+				class="font-semibold text-primary-600 dark:text-primary-400 uppercase"
+				v-if="tag"
+				>{{ tag }}</span
+			>
 			<h2
 				class="font-bold"
 				:class="
@@ -17,7 +19,7 @@
 			</h2>
 		</div>
 		<p
-			class="leading-8 text-gray-600"
+			class="leading-8 text-gray-600 dark:text-gray-400"
 			:class="
 				large != undefined
 					? 'text-lg md:text-xl'

@@ -1,7 +1,7 @@
 <template>
 	<div v-if="alt == undefined" class="flex items-start space-x-4">
 		<div
-			class="bg-gradient-to-br from-primary to-secondary p-4 rounded-md shadow-md text-white"
+			class="bg-gradient-to-br from-primary-600 to-secondary-600 p-4 rounded-md shadow-md text-white"
 		>
 			<svg
 				class="w-6"
@@ -20,14 +20,14 @@
 		</div>
 		<div class="flex flex-col space-y-2">
 			<span class="font-semibold text-xl">{{ title }}</span>
-			<p class="text-gray-600">
+			<p class="text-gray-600 dark:text-gray-400">
 				{{ content }}
 			</p>
 		</div>
 	</div>
 	<div v-else class="bg-gray-100 relative rounded-xl text-center">
 		<div
-			class="absolute bg-gradient-to-br from-primary to-secondary left-1/2 mx-auto  shadow-md top-0 transform -translate-x-1/2 -translate-y-1/2 p-4 rounded-md text-white"
+			class="absolute bg-gradient-to-br from-primary-600 to-secondary-600 left-1/2 mx-auto  shadow-md top-0 transform -translate-x-1/2 -translate-y-1/2 p-4 rounded-md text-white"
 		>
 			<svg
 				class="w-6"

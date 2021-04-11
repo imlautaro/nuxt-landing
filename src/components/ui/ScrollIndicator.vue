@@ -1,8 +1,8 @@
 <template>
 	<div
-		class="w-screen h-1 bg-gray-200 dark:bg-gray-800 fixed top-0 left-0 z-30"
+		class="w-screen h-1 bg-gray-200 dark:bg-gray-900 fixed top-0 left-0 z-30"
 	>
-		<div class="bg-primary h-full w-0" ref="progress"></div>
+		<div class="bg-primary-600 h-full w-0" ref="progress"></div>
 	</div>
 </template>
 

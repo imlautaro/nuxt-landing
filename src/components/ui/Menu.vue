@@ -2,7 +2,7 @@
 	<transition name="menu">
 		<div
 			v-if="open"
-			class="bg-white z-20 w-3/4 md:w-2/4 lg:w-1/4 flex flex-col right-0 h-screen fixed shadow-2xl top-0"
+			class="bg-white dark:bg-gray-800 z-20 w-3/4 md:w-2/4 lg:w-1/4 flex flex-col right-0 h-screen fixed shadow-2xl top-0"
 		>
 			<div class="flex items-center justify-between px-8 py-8">
 				<span class="text-xl font-semibold">Menu</span>
@@ -25,31 +25,31 @@
 			</div>
 			<InpageLink
 				@navigate="$emit('close')"
-				class="px-8 py-4 hover:bg-black hover:bg-opacity-5"
+				class="px-8 py-4 hover:bg-black hover:bg-opacity-5 dark:hover:bg-white dark:hover:bg-opacity-5"
 				to="who"
 				>Who we are?</InpageLink
 			>
 			<InpageLink
 				@navigate="$emit('close')"
-				class="px-8 py-4 hover:bg-black hover:bg-opacity-5"
+				class="px-8 py-4 hover:bg-black hover:bg-opacity-5 dark:hover:bg-white dark:hover:bg-opacity-5"
 				to="what"
 				>What we do?</InpageLink
 			>
 			<InpageLink
 				@navigate="$emit('close')"
-				class="px-8 py-4 hover:bg-black hover:bg-opacity-5"
+				class="px-8 py-4 hover:bg-black hover:bg-opacity-5 dark:hover:bg-white dark:hover:bg-opacity-5"
 				to="products"
 				>Our products</InpageLink
 			>
 			<InpageLink
 				@navigate="$emit('close')"
-				class="px-8 py-4 hover:bg-black hover:bg-opacity-5"
+				class="px-8 py-4 hover:bg-black hover:bg-opacity-5 dark:hover:bg-white dark:hover:bg-opacity-5"
 				to="where"
 				>Where we are?</InpageLink
 			>
 			<InpageLink
 				@navigate="$emit('close')"
-				class="px-8 py-4 hover:bg-black hover:bg-opacity-5"
+				class="px-8 py-4 hover:bg-black hover:bg-opacity-5 dark:hover:bg-white dark:hover:bg-opacity-5"
 				to="contact"
 				>Contact</InpageLink
 			>

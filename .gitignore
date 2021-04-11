@@ -1,6 +1,12 @@
+# NodeJS
 node_modules/
+
+# NuxtJS
 .nuxt/
 dist/
+
+# Vercel
 .vercel/
 
+# General
 .env

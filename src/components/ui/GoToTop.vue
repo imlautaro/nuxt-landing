@@ -4,7 +4,7 @@
 			@click="scrollToTop()"
 			aria-label="Ir arriba"
 			v-if="show"
-			class="btn btn--primary transform fixed bottom-8 right-8 p-4 rounded-full"
+			class="btn btn--primary-600 transform fixed bottom-8 right-8 p-4 rounded-full"
 		>
 			<svg
 				class="w-6"

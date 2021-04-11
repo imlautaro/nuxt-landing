@@ -1,13 +1,13 @@
 <template>
-	<div class="text-gray-800">
-		<ScrollIndicator />
-		<Navigation @open-menu="menuOpen = true" />
+	<div class="text-gray-800 dark:bg-gray-900 dark:text-gray-100">
+		<ui-scroll-indicator />
+		<layout-navigation @open-menu="menuOpen = true" />
 		<div class="flex">
-			<Nuxt />
-			<Menu v-model="menuOpen" />
+			<nuxt />
+			<ui-menu v-model="menuOpen" />
 		</div>
-		<GoToTop />
-		<Footer />
+		<ui-go-to-top />
+		<layout-footer />
 	</div>
 </template>
 

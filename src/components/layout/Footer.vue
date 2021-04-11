@@ -5,7 +5,7 @@
 			Designed by
 			<a
 				href="https://imlautaro.nuxt.club/"
-				class="font-semibold text-primary"
+				class="font-semibold text-primary-600 dark:text-primary-400"
 				>Lautaro Pereyra</a
 			>
 		</div>

@@ -17,7 +17,7 @@
 			class="form-control form-control--large"
 			placeholder="Message"
 		></textarea>
-		<button class="btn btn--large btn--primary" type="submit">
+		<button class="btn btn--large btn--primary-600" type="submit">
 			<div v-if="loading" class="btn--loader"></div>
 			Send
 		</button>
