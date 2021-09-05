@@ -9,9 +9,13 @@ const config: NuxtConfig = {
 		'@nuxtjs/pwa',
 		'@nuxtjs/composition-api/module',
 		'unplugin-vue2-script-setup/nuxt',
+		'nuxt-delay-hydration',
 	],
 	components: true,
 	css: ['~/assets/css/main.css'],
+	delayHydration: {
+		mode: 'mount',
+	},
 	googleFonts: {
 		display: 'swap',
 		families: {

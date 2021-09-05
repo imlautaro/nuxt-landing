@@ -10,6 +10,7 @@
     "dependencies": {
         "nodemailer": "^6.5.0",
         "nuxt": "^2.15.3",
+        "nuxt-delay-hydration": "^0.2.4",
         "nuxt-windicss": "^1.2.3"
     },
     "devDependencies": {
