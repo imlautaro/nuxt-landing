@@ -18,6 +18,9 @@ const config: NuxtConfig = {
 			Inter: [400, 600, 700],
 		},
 	},
+	image: {
+		domains: ['images.unsplash.com'],
+	},
 	publicRuntimeConfig: {
 		sitename: process.env.SITENAME || 'Nuxt Landing',
 	},
