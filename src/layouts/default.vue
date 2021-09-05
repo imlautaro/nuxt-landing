@@ -1,5 +1,5 @@
 <template>
-	<div class="text-gray-800 dark:bg-gray-900 dark:text-gray-100">
+	<div>
 		<ui-scroll-indicator />
 		<layout-navigation @open-menu="menuOpen = true" />
 		<div class="flex">

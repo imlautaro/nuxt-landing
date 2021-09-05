@@ -2,7 +2,7 @@ import { defineConfig } from 'windicss/helpers'
 import colors from 'windicss/colors'
 
 const config = defineConfig({
-	darkMode: 'media',
+	darkMode: 'class',
 	theme: {
 		container: {
 			center: true,

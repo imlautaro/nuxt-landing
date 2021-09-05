@@ -1,7 +1,7 @@
 <template>
 	<header
 		class="duration-300 sticky top-0 z-10"
-		:class="elevate ? 'sheet' : 'bg-white dark:bg-gray-900'"
+		:class="elevate ? 'sheet' : 'bg-gray-100 dark:bg-gray-900'"
 		id="header"
 	>
 		<nav role="navigation">

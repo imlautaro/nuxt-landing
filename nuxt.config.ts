@@ -10,7 +10,11 @@ const config: NuxtConfig = {
 		'@nuxtjs/composition-api/module',
 		'unplugin-vue2-script-setup/nuxt',
 		'nuxt-delay-hydration',
+		'@nuxtjs/color-mode',
 	],
+	colorMode: {
+		classSuffix: '',
+	},
 	components: true,
 	css: ['~/assets/css/main.css'],
 	delayHydration: {
