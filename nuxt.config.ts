@@ -4,11 +4,12 @@ const config: NuxtConfig = {
 	buildModules: [
 		'@nuxt/typescript-build',
 		'@nuxt/image',
-		'@nuxtjs/tailwindcss',
+		'nuxt-windicss',
 		'@nuxtjs/google-fonts',
 		'@nuxtjs/pwa',
 	],
 	components: true,
+	css: ['~/assets/css/main.css'],
 	googleFonts: {
 		display: 'swap',
 		families: {
