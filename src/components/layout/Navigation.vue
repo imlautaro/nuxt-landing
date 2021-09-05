@@ -6,7 +6,7 @@
 	>
 		<nav role="navigation">
 			<div
-				class="container max-w-screen-lg flex items-center justify-between space-x-4 mx-auto p-8"
+				class="container max-w-screen-lg flex items-center justify-between space-x-4 mx-auto p-4 md:p-8"
 			>
 				<brand-imagotype />
 				<div
@@ -52,7 +52,7 @@ export default {
 		}
 	},
 	mounted() {
-		document.addEventListener('scroll', (event) => {
+		document.addEventListener('scroll', event => {
 			this.elevate = event.target.scrollingElement.scrollTop > 0
 		})
 	},
