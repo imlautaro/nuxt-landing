@@ -6,6 +6,7 @@
 			alt="Plant to decorate your home."
 			width="607px"
 			height="405px"
+			class="w-full"
 			src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80"
 		/>
 		<div class="flex flex-col space-y-4 p-8">
