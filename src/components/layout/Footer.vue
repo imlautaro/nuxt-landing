@@ -4,7 +4,7 @@
 			{{ $config.sitename }} &copy; {{ new Date().getFullYear() }} ·
 			Designed by
 			<a
-				href="https://imlautaro.nuxt.club/"
+				href="https://imlautaro.com/"
 				class="font-semibold text-primary-600 dark:text-primary-400"
 				>Lautaro Pereyra</a
 			>
